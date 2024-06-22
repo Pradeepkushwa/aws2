@@ -35,7 +35,7 @@ COPY app/Gemfile* ./
 RUN gem update --system 3.2.3
 RUN bundle config set --local without 'development test'
 RUN bundle config https://gem.fury.io/engineerai/ nvHuX-OXxLY2OpiQkFVfgnYgd4CszdA
-RUN /bin/sh -c bundle install --jobs=4 --retry=3
+RUN bundle install --jobs=4 --retry=3
 
 # Copy the rest of the application code
 COPY app/ .
