@@ -12,10 +12,10 @@ RUN gem install bundler -v 2.4.22
 
 RUN mkdir /app
 WORKDIR /app
-COPY template-app/Gemfile* ./
+COPY app/Gemfile* ./
 RUN gem update --system 3.2.3
 RUN apk add ffmpeg
 RUN bundle install
-COPY template-app/ .
+COPY app/ .
 EXPOSE 3000
 CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0", "-p", "3000"]
