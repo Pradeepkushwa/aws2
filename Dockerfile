@@ -15,6 +15,7 @@ WORKDIR /app
 COPY app/Gemfile* ./
 RUN gem update --system 3.2.3
 RUN apk add ffmpeg
+RUN bundle config https://gem.fury.io/engineerai/ nvHuX-OXxLY2OpiQkFVfgnYgd4CszdA
 RUN bundle install
 COPY app/ .
 EXPOSE 3000
