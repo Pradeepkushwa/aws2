@@ -3,7 +3,7 @@ ARG RAILS_ENV=production
 ENV RAILS_ENV="${RAILS_ENV}"
 ENV APP_VERSION=${TAG}
 RUN apk update
-RUN apk add bash build-base libxml2-dev libxslt-dev postgresql postgresql-dev nodejs vim yarn libc6-compat curl git which wkhtmltopdf ttf-ubuntu-font-family imagemagick libmariadb-dev libmysqlclient-dev
+RUN apk add bash build-base libxml2-dev libxslt-dev postgresql postgresql-dev nodejs vim yarn libc6-compat curl git which 
 # Install system dependencies
 RUN apk update && apk add --no-cache build-base
 
