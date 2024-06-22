@@ -1,0 +1,15 @@
+current directory: /home/lenovo/AWS_project/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.1/ext/stringio
+/home/lenovo/.rvm/rubies/ruby-3.0.0/bin/ruby -I /home/lenovo/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0 -r ./siteconf20240622-343797-12qo4m.rb extconf.rb
+creating Makefile
+
+current directory: /home/lenovo/AWS_project/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.1/ext/stringio
+make "DESTDIR=" clean
+
+current directory: /home/lenovo/AWS_project/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.1/ext/stringio
+make "DESTDIR="
+compiling stringio.c
+linking shared-object stringio.so
+
+current directory: /home/lenovo/AWS_project/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.1/ext/stringio
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 stringio.so ./.gem.20240622-343797-iohwud

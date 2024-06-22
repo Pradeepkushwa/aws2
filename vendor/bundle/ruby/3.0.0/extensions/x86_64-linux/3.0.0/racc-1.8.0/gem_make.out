@@ -1,0 +1,15 @@
+current directory: /home/lenovo/AWS_project/vendor/bundle/ruby/3.0.0/gems/racc-1.8.0/ext/racc/cparse
+/home/lenovo/.rvm/rubies/ruby-3.0.0/bin/ruby -I /home/lenovo/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0 -r ./siteconf20240622-343797-kxl0l7.rb extconf.rb
+creating Makefile
+
+current directory: /home/lenovo/AWS_project/vendor/bundle/ruby/3.0.0/gems/racc-1.8.0/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: /home/lenovo/AWS_project/vendor/bundle/ruby/3.0.0/gems/racc-1.8.0/ext/racc/cparse
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/lenovo/AWS_project/vendor/bundle/ruby/3.0.0/gems/racc-1.8.0/ext/racc/cparse
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20240622-343797-wnr5ju/racc

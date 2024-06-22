@@ -1,0 +1,15 @@
+current directory: /home/lenovo/AWS_project/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+/home/lenovo/.rvm/rubies/ruby-3.0.0/bin/ruby -I /home/lenovo/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0 -r ./siteconf20240622-343797-yts8ag.rb extconf.rb
+creating Makefile
+
+current directory: /home/lenovo/AWS_project/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /home/lenovo/AWS_project/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/lenovo/AWS_project/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20240622-343797-x70p2o/skiptrace/internal
